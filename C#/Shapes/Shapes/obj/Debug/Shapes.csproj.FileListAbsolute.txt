@@ -1,0 +1,6 @@
+C:\Users\Josue\Documents\GitHub\Client-Side-Week-One\C#\Shapes\Shapes\bin\Debug\Shapes.exe.config
+C:\Users\Josue\Documents\GitHub\Client-Side-Week-One\C#\Shapes\Shapes\bin\Debug\Shapes.exe
+C:\Users\Josue\Documents\GitHub\Client-Side-Week-One\C#\Shapes\Shapes\bin\Debug\Shapes.pdb
+C:\Users\Josue\Documents\GitHub\Client-Side-Week-One\C#\Shapes\Shapes\obj\Debug\Shapes.csprojResolveAssemblyReference.cache
+C:\Users\Josue\Documents\GitHub\Client-Side-Week-One\C#\Shapes\Shapes\obj\Debug\Shapes.exe
+C:\Users\Josue\Documents\GitHub\Client-Side-Week-One\C#\Shapes\Shapes\obj\Debug\Shapes.pdb
