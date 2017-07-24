@@ -1,0 +1,90 @@
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\ApplicationInsights.config
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\roslyn\csc.exe
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\roslyn\vbc.exe
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\roslyn\VBCSCompiler.exe
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\MenuApi.dll.config
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\MenuApi.dll
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\MenuApi.pdb
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\Microsoft.AI.Web.dll
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\Newtonsoft.Json.dll
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\System.Net.Http.Formatting.dll
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\System.Web.Http.dll
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\System.Web.Http.WebHost.dll
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\Microsoft.AI.Web.xml
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\Newtonsoft.Json.xml
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\System.Net.Http.Formatting.xml
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\System.Web.Http.xml
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\System.Web.Http.WebHost.xml
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\obj\Debug\MenuApi.csprojResolveAssemblyReference.cache
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\obj\Debug\MenuApi.dll
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\obj\Debug\MenuApi.pdb
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\System.Web.Cors.dll
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\System.Web.Http.Cors.dll
+C:\Users\Josue\Documents\GitHub\Web API Tutorial\MenuApi\MenuApi\bin\System.Web.Http.Cors.xml
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\ApplicationInsights.config
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\roslyn\csc.exe
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\roslyn\vbc.exe
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\roslyn\VBCSCompiler.exe
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\MenuApi.dll.config
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\MenuApi.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\MenuApi.pdb
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\Microsoft.AI.Web.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\Newtonsoft.Json.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\RestaurantDB.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\System.Net.Http.Formatting.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\System.Web.Cors.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\System.Web.Http.Cors.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\System.Web.Http.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\System.Web.Http.WebHost.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\RestaurantDB.pdb
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\Microsoft.AI.Web.xml
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\System.Web.Http.Cors.xml
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\Newtonsoft.Json.xml
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\System.Net.Http.Formatting.xml
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\System.Web.Http.xml
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\bin\System.Web.Http.WebHost.xml
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\obj\Debug\MenuApi.csprojResolveAssemblyReference.cache
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\obj\Debug\MenuApi.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\MenuApi\obj\Debug\MenuApi.pdb

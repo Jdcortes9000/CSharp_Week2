@@ -1,0 +1,9 @@
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\RestaurantDB\bin\Debug\RestaurantDB.dll.config
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\RestaurantDB\bin\Debug\RestaurantDB.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\RestaurantDB\bin\Debug\RestaurantDB.pdb
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\RestaurantDB\bin\Debug\EntityFramework.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\RestaurantDB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\RestaurantDB\bin\Debug\EntityFramework.xml
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\RestaurantDB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\RestaurantDB\obj\Debug\RestaurantDB.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\MenuApi\RestaurantDB\obj\Debug\RestaurantDB.pdb

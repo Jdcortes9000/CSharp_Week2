@@ -10,3 +10,12 @@ C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\Shapes\obj\Debug\Shapes.p
 C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\Shapes\bin\Debug\Shapes.exe
 C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\Shapes\bin\Debug\Shapes.pdb
 C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\Shapes\obj\Debug\Shapes.csprojResolveAssemblyReference.cache
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\Shapes\bin\Debug\NLog.config
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\Shapes\bin\Debug\DemoDAO.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\Shapes\bin\Debug\EntityFramework.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\Shapes\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\Shapes\bin\Debug\NLog.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\Shapes\bin\Debug\DemoDAO.pdb
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\Shapes\bin\Debug\EntityFramework.xml
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\Shapes\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\Shapes\bin\Debug\NLog.xml

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DemoShapeDBModelStoreContainer" CdmEntityContainer="DemoShapeDBEntities">
+    <EntitySetMapping Name="Shapes">
+      <EntityTypeMapping TypeName="DemoShapeDBModel.Shape">
+        <MappingFragment StoreEntitySet="Shapes">
+          <ScalarProperty Name="pk" ColumnName="pk" />
+          <ScalarProperty Name="height" ColumnName="height" />
+          <ScalarProperty Name="width" ColumnName="width" />
+          <ScalarProperty Name="fk_ShapeType" ColumnName="fk_ShapeType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ShapeTypes">
+      <EntityTypeMapping TypeName="DemoShapeDBModel.ShapeType">
+        <MappingFragment StoreEntitySet="ShapeType">
+          <ScalarProperty Name="pk" ColumnName="pk" />
+          <ScalarProperty Name="shapeType1" ColumnName="shapeType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ShapesAreas">
+      <EntityTypeMapping TypeName="DemoShapeDBModel.ShapesArea">
+        <MappingFragment StoreEntitySet="ShapesArea">
+          <ScalarProperty Name="shapeType" ColumnName="shapeType" />
+          <ScalarProperty Name="area" ColumnName="area" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="GetShapeByID" FunctionName="DemoShapeDBModel.Store.GetShapeByID">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DemoShapeDBModel.GetShapeByID_Result">
+          <ScalarProperty Name="height" ColumnName="height" />
+          <ScalarProperty Name="width" ColumnName="width" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetShapeByType" FunctionName="DemoShapeDBModel.Store.GetShapeByType">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DemoShapeDBModel.GetShapeByType_Result">
+          <ScalarProperty Name="shapetype" ColumnName="shapetype" />
+          <ScalarProperty Name="height" ColumnName="height" />
+          <ScalarProperty Name="width" ColumnName="width" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

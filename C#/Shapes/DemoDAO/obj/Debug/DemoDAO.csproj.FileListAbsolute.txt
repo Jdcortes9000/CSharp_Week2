@@ -1,0 +1,10 @@
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\DemoDAO\bin\Debug\DemoDAO.dll.config
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\DemoDAO\bin\Debug\DemoDAO.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\DemoDAO\bin\Debug\DemoDAO.pdb
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\DemoDAO\bin\Debug\EntityFramework.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\DemoDAO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\DemoDAO\bin\Debug\EntityFramework.xml
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\DemoDAO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\DemoDAO\obj\Debug\DemoDAO.csprojResolveAssemblyReference.cache
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\DemoDAO\obj\Debug\DemoDAO.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\DemoDAO\obj\Debug\DemoDAO.pdb

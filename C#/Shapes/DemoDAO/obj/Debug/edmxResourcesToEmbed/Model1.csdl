@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DemoShapeDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Shape">
+    <Key>
+      <PropertyRef Name="pk" />
+    </Key>
+    <Property Name="pk" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="height" Type="Int32" Nullable="false" />
+    <Property Name="width" Type="Int32" Nullable="false" />
+    <Property Name="fk_ShapeType" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="ShapeType" Relationship="Self.fk_ShapeType_Shapes" FromRole="Shapes" ToRole="ShapeType" />
+  </EntityType>
+  <EntityType Name="ShapeType">
+    <Key>
+      <PropertyRef Name="pk" />
+    </Key>
+    <Property Name="pk" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="shapeType1" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Shapes" Relationship="Self.fk_ShapeType_Shapes" FromRole="ShapeType" ToRole="Shapes" />
+  </EntityType>
+  <EntityType Name="ShapesArea">
+    <Key>
+      <PropertyRef Name="shapeType" />
+    </Key>
+    <Property Name="shapeType" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="area" Type="Int32" />
+  </EntityType>
+  <Association Name="fk_ShapeType_Shapes">
+    <End Role="ShapeType" Type="Self.ShapeType" Multiplicity="1" />
+    <End Role="Shapes" Type="Self.Shape" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ShapeType">
+        <PropertyRef Name="pk" />
+      </Principal>
+      <Dependent Role="Shapes">
+        <PropertyRef Name="fk_ShapeType" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DemoShapeDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Shapes" EntityType="Self.Shape" />
+    <EntitySet Name="ShapeTypes" EntityType="Self.ShapeType" />
+    <EntitySet Name="ShapesAreas" EntityType="Self.ShapesArea" />
+    <AssociationSet Name="fk_ShapeType_Shapes" Association="Self.fk_ShapeType_Shapes">
+      <End Role="ShapeType" EntitySet="ShapeTypes" />
+      <End Role="Shapes" EntitySet="Shapes" />
+    </AssociationSet>
+    <FunctionImport Name="GetShapeByID" ReturnType="Collection(DemoShapeDBModel.GetShapeByID_Result)">
+      <Parameter Name="shapeid" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GetShapeByType" ReturnType="Collection(DemoShapeDBModel.GetShapeByType_Result)">
+      <Parameter Name="shapetype" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="GetShapeByID_Result">
+    <Property Type="Int32" Name="height" Nullable="false" />
+    <Property Type="Int32" Name="width" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="GetShapeByType_Result">
+    <Property Type="String" Name="shapetype" Nullable="false" MaxLength="20" />
+    <Property Type="Int32" Name="height" Nullable="false" />
+    <Property Type="Int32" Name="width" Nullable="false" />
+  </ComplexType>
+</Schema>

@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RestaurantAppDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Cart">
+    <Key>
+      <PropertyRef Name="pk" />
+    </Key>
+    <Property Name="pk" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="fk_user" Type="Int32" Nullable="false" />
+    <Property Name="fk_item" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Menu" Relationship="Self.fk_item_item" FromRole="Cart" ToRole="Menu" />
+    <NavigationProperty Name="User" Relationship="Self.fk_user_user" FromRole="Cart" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="pk" />
+    </Key>
+    <Property Name="pk" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="category1" Type="String" MaxLength="25" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Menus" Relationship="Self.fk_Category_Category" FromRole="Categories" ToRole="Menu" />
+  </EntityType>
+  <EntityType Name="Menu">
+    <Key>
+      <PropertyRef Name="pk" />
+    </Key>
+    <Property Name="pk" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ItemName" Type="String" MaxLength="25" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Price" Type="Double" Nullable="false" />
+    <Property Name="fk_Category" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Carts" Relationship="Self.fk_item_item" FromRole="Menu" ToRole="Cart" />
+    <NavigationProperty Name="Category" Relationship="Self.fk_Category_Category" FromRole="Menu" ToRole="Categories" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="pk" />
+    </Key>
+    <Property Name="pk" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="UserPassword" Type="String" MaxLength="25" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="UserAddress" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Carts" Relationship="Self.fk_user_user" FromRole="Users" ToRole="Cart" />
+  </EntityType>
+  <EntityType Name="Name">
+    <Key>
+      <PropertyRef Name="userName" />
+    </Key>
+    <Property Name="userName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <Association Name="fk_item_item">
+    <End Role="Menu" Type="Self.Menu" Multiplicity="1" />
+    <End Role="Cart" Type="Self.Cart" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Menu">
+        <PropertyRef Name="pk" />
+      </Principal>
+      <Dependent Role="Cart">
+        <PropertyRef Name="fk_item" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_user_user">
+    <End Role="Users" Type="Self.User" Multiplicity="1" />
+    <End Role="Cart" Type="Self.Cart" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="pk" />
+      </Principal>
+      <Dependent Role="Cart">
+        <PropertyRef Name="fk_user" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Category_Category">
+    <End Role="Categories" Type="Self.Category" Multiplicity="1" />
+    <End Role="Menu" Type="Self.Menu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="pk" />
+      </Principal>
+      <Dependent Role="Menu">
+        <PropertyRef Name="fk_Category" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="RestaurantAppDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Carts" EntityType="Self.Cart" />
+    <EntitySet Name="Categories" EntityType="Self.Category" />
+    <EntitySet Name="Menus" EntityType="Self.Menu" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <EntitySet Name="Names" EntityType="Self.Name" />
+    <AssociationSet Name="fk_item_item" Association="Self.fk_item_item">
+      <End Role="Menu" EntitySet="Menus" />
+      <End Role="Cart" EntitySet="Carts" />
+    </AssociationSet>
+    <AssociationSet Name="fk_user_user" Association="Self.fk_user_user">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Cart" EntitySet="Carts" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Category_Category" Association="Self.fk_Category_Category">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="Menu" EntitySet="Menus" />
+    </AssociationSet>
+    <FunctionImport Name="EmptyProcedure">
+      <Parameter Name="shapeid" Mode="In" Type="Int32" />
+    </FunctionImport>
+  </EntityContainer>
+</Schema>

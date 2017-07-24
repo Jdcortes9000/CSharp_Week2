@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="RestaurantAppDBModelStoreContainer" CdmEntityContainer="RestaurantAppDBEntities">
+    <EntitySetMapping Name="Carts">
+      <EntityTypeMapping TypeName="RestaurantAppDBModel.Cart">
+        <MappingFragment StoreEntitySet="Cart">
+          <ScalarProperty Name="pk" ColumnName="pk" />
+          <ScalarProperty Name="fk_user" ColumnName="fk_user" />
+          <ScalarProperty Name="fk_item" ColumnName="fk_item" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="RestaurantAppDBModel.Category">
+        <MappingFragment StoreEntitySet="Categories">
+          <ScalarProperty Name="pk" ColumnName="pk" />
+          <ScalarProperty Name="category1" ColumnName="category" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Menus">
+      <EntityTypeMapping TypeName="RestaurantAppDBModel.Menu">
+        <MappingFragment StoreEntitySet="Menu">
+          <ScalarProperty Name="pk" ColumnName="pk" />
+          <ScalarProperty Name="ItemName" ColumnName="ItemName" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="fk_Category" ColumnName="fk_Category" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="RestaurantAppDBModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="pk" ColumnName="pk" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserPassword" ColumnName="UserPassword" />
+          <ScalarProperty Name="UserAddress" ColumnName="UserAddress" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Names">
+      <EntityTypeMapping TypeName="RestaurantAppDBModel.Name">
+        <MappingFragment StoreEntitySet="Names">
+          <ScalarProperty Name="userName" ColumnName="userName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="EmptyProcedure" FunctionName="RestaurantAppDBModel.Store.EmptyProcedure" />
+  </EntityContainerMapping>
+</Mapping>

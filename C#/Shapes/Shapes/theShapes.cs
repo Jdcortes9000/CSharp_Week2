@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Shapes
 {
+    [System.Runtime.Serialization.DataContract]
     public class theShapes
     {
         public theShapes()
@@ -13,15 +14,16 @@ namespace Shapes
             height = 0;
             width = 0;
         }
-
+        
         public theShapes(double l, double w)
         {
             height = l;
             width = w;
         }
-
-        double height = 5;
-        double width = 5;
+        [System.Runtime.Serialization.DataMember]
+        public double height = 5;
+        [System.Runtime.Serialization.DataMember]
+        public double width = 5;
         public virtual double Area()
         {
             return this.height * this.width;
@@ -40,21 +42,25 @@ namespace Shapes
             return $"The shape: {GetShapeInfo()}";
         }
     }
-    class Rectangle:theShapes
+
+    [System.Runtime.Serialization.DataContract]
+   public class Rectangle:theShapes
     {
         public Rectangle(double heigth, double width) : base(heigth, width)
         {
 
         }
     }
-    class Square: Rectangle
+    [System.Runtime.Serialization.DataContract]
+    public class Square: Rectangle
     {
         public Square(int length) : base(length, length)
         {
 
         }
     }
-    class Triangle: theShapes
+    [System.Runtime.Serialization.DataContract]
+    public class Triangle: theShapes
     {
         public Triangle(int heigth, int width) : base(heigth, width)
         {

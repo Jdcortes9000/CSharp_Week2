@@ -1,0 +1,14 @@
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\demo.unitests\bin\Debug\NLog.config
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\demo.unitests\bin\Debug\demo.unitests.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\demo.unitests\bin\Debug\demo.unitests.pdb
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\demo.unitests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\demo.unitests\bin\Debug\Shapes.exe
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\demo.unitests\bin\Debug\Shapes.pdb
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\demo.unitests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\demo.unitests\obj\Debug\demo.unitests.csprojResolveAssemblyReference.cache
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\demo.unitests\obj\Debug\demo.unitests.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\demo.unitests\obj\Debug\demo.unitests.pdb
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\demo.unitests\bin\Debug\DemoDAO.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\demo.unitests\bin\Debug\EntityFramework.dll
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\demo.unitests\bin\Debug\DemoDAO.pdb
+C:\Users\Josue\Documents\GitHub\CSharp_Week2\C#\Shapes\demo.unitests\bin\Debug\EntityFramework.xml

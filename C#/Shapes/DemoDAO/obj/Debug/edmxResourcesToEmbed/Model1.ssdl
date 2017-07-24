@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DemoShapeDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Shapes">
+    <Key>
+      <PropertyRef Name="pk" />
+    </Key>
+    <Property Name="pk" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="height" Type="int" Nullable="false" />
+    <Property Name="width" Type="int" Nullable="false" />
+    <Property Name="fk_ShapeType" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ShapeType">
+    <Key>
+      <PropertyRef Name="pk" />
+    </Key>
+    <Property Name="pk" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="shapeType" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'DemoShapeDB.dbo.ShapesArea' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="ShapesArea">
+    <Key>
+      <PropertyRef Name="shapeType" />
+    </Key>
+    <Property Name="shapeType" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="area" Type="int" />
+  </EntityType>
+  <Association Name="fk_ShapeType_Shapes">
+    <End Role="ShapeType" Type="Self.ShapeType" Multiplicity="1" />
+    <End Role="Shapes" Type="Self.Shapes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ShapeType">
+        <PropertyRef Name="pk" />
+      </Principal>
+      <Dependent Role="Shapes">
+        <PropertyRef Name="fk_ShapeType" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="GetShapeByID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="shapeid" Type="int" Mode="In" />
+  </Function>
+  <Function Name="GetShapeByType" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="shapetype" Type="nvarchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="DemoShapeDBModelStoreContainer">
+    <EntitySet Name="Shapes" EntityType="Self.Shapes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ShapeType" EntityType="Self.ShapeType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ShapesArea" EntityType="Self.ShapesArea" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [ShapesArea].[shapeType] AS [shapeType], 
+    [ShapesArea].[area] AS [area]
+    FROM [dbo].[ShapesArea] AS [ShapesArea]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="fk_ShapeType_Shapes" Association="Self.fk_ShapeType_Shapes">
+      <End Role="ShapeType" EntitySet="ShapeType" />
+      <End Role="Shapes" EntitySet="Shapes" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
